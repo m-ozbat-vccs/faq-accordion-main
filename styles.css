@@ -3,19 +3,16 @@
 
 .work-sans-400 {
   font-family: "Work Sans", sans-serif;
-  font-optical-sizing: auto;
   font-weight: 400;
   font-style: normal;
 }
 .work-sans-600 {
   font-family: "Work Sans", sans-serif;
-  font-optical-sizing: auto;
   font-weight: 600;
   font-style: normal;
 }
 .work-sans-700 {
   font-family: "Work Sans", sans-serif;
-  font-optical-sizing: auto;
   font-weight: 700;
   font-style: normal;
 }
@@ -26,6 +23,8 @@
     box-sizing:border-box;
     text-decoration:none;
 }
+
+
 
 /* Variables */
 :root {
@@ -93,14 +92,19 @@ h2:hover {
     padding:2% 0;
 }
 
-p.answer {
+div.answer {
     color:#b8afba;
-    /* display:none; */
+    display:none; 
 }
 
-/* p.answer:target {
-    display:block;
-} */
+/* Footer */
+.attribution { 
+    font-size: 11px; text-align: center; 
+}
+
+.attribution a { 
+        color: hsl(228, 45%, 44%); 
+}
 
 /*========================
     Mobile Styles 375px
