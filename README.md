@@ -38,7 +38,7 @@ Users should be able to:
 ### Links
 
 - [Solution URL](https://github.com/m-ozbat-vccs/faq-accordion-main.git)
-- [Live Site URL](https://your-live-site-url.com)
+- [Live Site URL](https://m-ozbat-vccs.github.io/faq-accordion-main/)
 
 ## My process
 
@@ -63,7 +63,7 @@ Javascript makes no sense and I'm having a hard time understanding how to write 
 I need to understand Javascript better. I'm questioning whether web development is for me after the last few weeks as it seems like you need to enjoy math to be comfortable with Javascript. 
 
 ### Useful resources
-[Resource 1](https://www.w3schools.com/howto/howto_js_accordion.asp) - This helped me understand the structure to reveal a hidden answer in an fag accordion
+[Resource 1](https://www.w3schools.com/howto/howto_js_accordion.asp) - This helped me understand the structure to reveal a hidden answer in an faq accordion
 [Resource 2](https://stackoverflow.com/) - I looked at several solutions for an faq accordion that swaps the image upon click on stack overflow
 [Resource 3](https://www.google.com) - I had to google how to change an image upon clicking a link
 
