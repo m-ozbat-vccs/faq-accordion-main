@@ -50,6 +50,8 @@ body {
     height:100vh;
 }
 
+/* Main Styles */
+
 main {
     width:clamp(20.000rem, calc(13.816rem + 26.316vw), 37.500rem);
     height:auto;
@@ -71,30 +73,53 @@ h1 {
     font-size:clamp(2.000rem, calc(1.647rem + 1.504vw), 3.000rem);
 }
 
-div.question-header {
-    display:flex;
-    justify-content:space-between;
-    padding:2% 0;
-}
+/* FAQ Styles */ 
 
-h2 {
+.faq-btn {
     color:var(--purple-950);
     font-size:1rem;
+    background-color:transparent;
+    text-align:left;
+    cursor: pointer;
+    padding:1.25rem;
+    padding-right:1.5rem;
+    width: 100%;
+    text-align: left;
+    border: none;
+    outline: none;
+    transition: 0.4s;
+    position:relative;
 }
 
-h2:hover {
+.faq-btn:hover, 
+.active {
  color:var(--purple-bright);
- cursor:pointer;
 }
 
 .question-block {
     border-bottom:1px solid #E5E5E5;
-    padding:2% 0;
+    padding:2% 0%;
 }
 
+.faq-btn::after {
+  content:url("assets/images/icon-plus.svg"); 
+  position:absolute;
+  top:25%;
+  left:92%;
+}
+
+.active::after {
+  content:url("assets/images/icon-minus.svg");
+} 
+
 div.answer {
-    color:#b8afba;
+    padding:0.25rem 1rem;
     display:none; 
+    overflow:hidden;
+}
+
+div.answer p {
+    color:#a9a8a8;
 }
 
 /* Footer */
@@ -109,7 +134,7 @@ div.answer {
 /*========================
     Mobile Styles 375px
 ========================*/
-@media screen and (max-width:1440px) {
+@media screen and (max-width:1080px) {
     main {
         padding:5%;
     }
@@ -119,7 +144,7 @@ div.answer {
 /*========================
     Desktop Styles 1440px
 =========================*/
-@media screen and (min-width:1441px) {
+@media screen and (min-width:1081px) {
     body {
         background-image:url(assets/images/background-pattern-desktop.svg);
         background-size:100% auto;
